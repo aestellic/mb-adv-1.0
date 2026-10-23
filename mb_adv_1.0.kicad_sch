@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "mb_adv")
-		(date "2026-10-07")
+		(date "2026-10-23")
 		(rev "1.0")
 		(company "aestellic")
 	)
@@ -2702,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 49.53) (xy 242.57 49.53)
+			(xy 237.49 46.99) (xy 242.57 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2832,6 +2832,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 49.53) (xy 242.57 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1e86b4-3b0e-4be9-a553-bd15eddbde2f")
+	)
+	(wire
+		(pts
 			(xy 195.58 62.23) (xy 195.58 66.04)
 		)
 		(stroke
@@ -2949,16 +2959,6 @@
 			(type default)
 		)
 		(uuid "d84693bc-6a42-445a-8fac-fad49b334e88")
-	)
-	(wire
-		(pts
-			(xy 237.49 46.99) (xy 242.57 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0862ec4-0923-491b-bf8c-c6e1896fc06d")
 	)
 	(wire
 		(pts
@@ -3157,6 +3157,30 @@
 		(uuid "3d170eff-873c-47eb-a79a-65b3ecf145bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 195.58 56.8257 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PSO"
+		(shape output)
+		(at 242.57 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a57f940-3fd5-4690-92ee-8070e5ecab0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3652 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3504,30 +3528,6 @@
 			)
 		)
 	)
-	(global_label "PSO"
-		(shape output)
-		(at 242.57 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a4830ad7-de10-452b-ab77-e8a88fd7fe8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.3652 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "PSD"
 		(shape bidirectional)
 		(at 50.8 82.55 180)
@@ -3578,7 +3578,7 @@
 	)
 	(global_label "PSI"
 		(shape input)
-		(at 242.57 49.53 0)
+		(at 242.57 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3588,7 +3588,7 @@
 		)
 		(uuid "be189cfc-dc6a-4fdb-a72b-0e29fdb77d3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.6395 49.53 0)
+			(at 248.6395 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
