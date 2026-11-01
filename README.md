@@ -4,7 +4,7 @@
 > This project is a work-in-progress and is currently incomplete.
 
 > [!WARNING]
-> The mb_adv is only compatible with certain devices. See [COMPATIBILITY.md]([COMPATIBILITY.md](https://github.com/aestellic/mb-adv-firmware/blob/main/COMPATIBILITY.md)) in the firmware repo for more info.
+> The mb_adv is only compatible with certain devices. See [COMPATIBILITY.md](https://github.com/aestellic/mb-adv-firmware/blob/main/COMPATIBILITY.md) in the firmware repo for more info.
 
 The mb_adv is a dongle for your GBA which injects multiboot ROMs via link cable.
 
