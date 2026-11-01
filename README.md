@@ -1,7 +1,10 @@
 # <img src="images/logo.png" width="200" style="image-rendering: pixelated"/>
 
 > [!WARNING]
-> This project (and its associated firmware) is a work-in-progress and is currently incomplete.
+> This project is a work-in-progress and is currently incomplete.
+
+> [!WARNING]
+> The mb_adv is only compatible with certain devices. See [COMPATIBILITY.md]([COMPATIBILITY.md](https://github.com/aestellic/mb-adv-firmware/blob/main/COMPATIBILITY.md)) in the firmware repo for more info.
 
 The mb_adv is a dongle for your GBA which injects multiboot ROMs via link cable.
 
@@ -12,7 +15,7 @@ With it, you can do stuff like [shiny hunt Jirachi without being tethered to a G
 If you'd like to buy one and are located in the USA, you can visit my store here (link will be added when store goes live). Otherwise, please see [MANUFACTURING.md](MANUFACTURING.md) for how to build one yourself!
 
 # Usage
-W.I.P
+See [SETUP.md](https://github.com/aestellic/mb-adv-firmware/blob/main/SETUP.md) in the firmware repo.
 
 # F.A.Q.
 How does this differ from the GB-Link?
